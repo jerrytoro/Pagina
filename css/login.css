@@ -1,0 +1,202 @@
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+}
+.cabecera-logos {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.position-logo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 100%;
+    padding: 5px 25px;
+}
+
+.contenido{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: #00000080;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85%;
+    color: white;
+}
+
+.card-interno{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.text-one{
+    width: 100%;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.input-form{
+    width: 94%;
+    padding: 24px 3%;
+    background-color: #00000085;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: white;
+}
+.input-form:focus{
+    border: 2px solid white;
+    outline: none;
+}
+.button-iniciar-sesion{
+    width: 100%;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 8px 0px;
+}
+.button-iniciar-sesion:hover{
+    background-color: #c4151e;
+    transition: 1.5;
+}
+.text-two{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+.button-codigo{
+    width: 100%;
+    color: white;
+    background-color: #5e5e5e91;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 8px 0px;
+}
+.button-codigo:hover{
+    background-color: #5e5e5e60;
+    transition: 1.5;
+}
+
+
+.renovar-password{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+.renovar-password:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+.option{
+    width: 100%;
+    text-align: left;
+}
+
+.input-check{
+    cursor: pointer;
+    border: 1px solid #888;
+    border-radius: 2px;
+    background-color: #020202;
+    appearance: none;
+    width: 19px;
+    height: 19px;
+    transition: 0.8s;
+}
+ 
+.input-check:hover{
+    border: 1px solid white;
+}
+ 
+.input-check:checked{
+    background-color: rgb(198, 198, 198);
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='black' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
+}
+
+
+.text-three{
+    width: 100%;
+    text-align: left;
+    color:gray
+}
+.suscription{
+    text-decoration: none;
+    color: white;
+}
+.suscription:hover{
+    text-decoration: underline;
+}
+.text-four{
+    width: 100%;
+    color: gray;
+    text-align: left;
+    font-size: 13px;
+}
+.information{
+    text-decoration: none;
+    color: #3d96fc;
+}
+.information:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:600px){
+    .logo {
+        height: 55%;
+        padding: 0px 0px 0px 22px;
+    }
+    .card{
+        width: 100%;
+        height: 60%;
+    }
+    body{
+        background-image: none;
+        background-color: black;
+    }
+    .card-interno {
+        width: 90%;
+        height: 100%;
+    }
+    .text-one{
+        margin-top: 0px;
+    }
+}
+/*
+@media screen and (max-height:600px) {
+    body{
+        height: 100%;
+    }
+    .cabecera{
+        height: 10%;
+    }
+    .contenido{
+        height: 90%;
+    }
+}
+*/

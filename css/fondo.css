@@ -1,0 +1,19 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url("../img-netflix/netflix-fondo-2.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+/*
+display flex
+flex-direction (column )
+justify-content de manera horizontal
+align-items de manera vertical
+flex-wrap (predeterminado viene nowrap) wrap hace respetar el tama;o
+*/
